@@ -1,0 +1,4 @@
+[server]
+# Faz o Streamlit monitorar todas as subpastas e arquivos importados (.py)
+runOnSave = true
+globPattern = "**/*.py"

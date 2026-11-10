@@ -1,117 +1,114 @@
+<div align="center">
+
 # Git Sheet
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.10+" />
-  <img src="https://img.shields.io/badge/Streamlit-1.x-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
-  <img src="https://img.shields.io/badge/Git-Flow-000000?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-</p>
+### Guia interativo de Git feito com Python e Streamlit
 
-Uma ferramenta prática e visual para estudar e revisar o uso do Git, desenvolvida em Python com Streamlit.
+Aprenda e consulte conceitos e comandos do Git em uma aplicação simples, organizada por tópicos e criada como parte dos meus estudos de Python.
 
-Este projeto foi criado como um exercício pessoal de aprendizado e como uma forma de consolidar conceitos do Git em uma interface simples e interativa. Ele serve como um guia de referência rápida para comandos, fluxos e boas práticas de versionamento.
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
 
-## Visão geral
+</div>
 
-O Git Sheet é um mini guia de consulta para comandos e situações comuns no Git, como:
+## Sobre o projeto
 
-- inicialização e configuração do repositório
-- criação e uso de commits
-- navegação entre branches
-- comparação de alterações
-- descarte de mudanças
-- resolução de conflitos
-- uso de tags e repositórios remotos
-- revisão de histórico e arquivos estruturais
+O **Git Sheet** é um guia de consulta interativo para quem está aprendendo ou quer revisar os principais recursos do Git. A aplicação apresenta os conteúdos em tópicos acessíveis por um menu lateral.
 
-A aplicação foi pensada para facilitar o aprendizado por meio de uma interface intuitiva, com navegação por tópicos em sidebar e conteúdo organizado por área.
+O projeto também é um exercício prático de desenvolvimento com Python e Streamlit, reunindo estudos de programação e controle de versão em uma aplicação web.
 
-## Tecnologias utilizadas
+## Conteúdo
 
-- Python
-- Streamlit
-- Git
+A aplicação organiza os tópicos em áreas como:
 
-## Funcionalidades
+- primeiros passos e preparação de commits
+- criação de commits e navegação entre branches
+- comparação e descarte de alterações
+- edição e exploração do histórico
+- combinação de branches e resolução de conflitos
+- repositórios remotos e tags
+- configurações e arquivos estruturais do Git
 
-- interface interativa em navegador
-- menu lateral com tópicos organizados
-- conteúdo de apoio sobre comandos Git
-- estrutura didática para estudo contínuo
-- foco em uso prático e revisão rápida de conceitos
+## Tecnologias
 
-## Como executar
+- **Python** — linguagem utilizada no projeto
+- **Streamlit** — criação da interface web interativa
+- **Git** — controle de versão
 
-### Pré-requisitos
+## Como executar localmente
 
-- Python 3.10 ou superior
-- pip
+### Requisitos
 
-### Instalação
+- Python instalado
+- `pip`
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/Matheeus00/git-sheet.git
+cd git-sheet
+```
+
+### 2. (Opcional) Crie e ative um ambiente virtual
+
+Windows:
 
 ```bash
 python -m venv .venv
-```
-
-No Windows:
-
-```bash
 .venv\Scripts\activate
 ```
 
-No macOS/Linux:
+macOS/Linux:
 
 ```bash
+python -m venv .venv
 source .venv/bin/activate
 ```
 
-Em seguida, instale as dependências:
+### 3. Instale as dependências
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Execução
+### 4. Inicie a aplicação
 
 ```bash
 streamlit run app.py
 ```
 
-A aplicação será aberta localmente em:
+O Streamlit exibirá no terminal o endereço local da aplicação, normalmente `http://localhost:8501`.
 
-```text
-http://localhost:8501
-```
-
-## Estrutura do projeto
+## Estrutura do repositório
 
 ```text
 git-sheet/
-├── app.py                  # aplicação principal em Streamlit
-├── requirements.txt        # dependências do projeto
-├── .streamlit/             # configurações da aplicação Streamlit
-├── assets/                 # arquivos visuais e estáticos
-├── views/                  # módulos de conteúdo por tópico do Git
-├── README.md               # documentação do projeto
-└── .gitignore              # arquivos ignorados pelo Git
+├── app.py              # ponto de entrada e navegação da aplicação
+├── views/              # conteúdo separado por tópico
+├── assets/             # recursos visuais
+├── .streamlit/         # configurações do Streamlit
+├── requirements.txt    # dependências Python
+└── README.md           # documentação do projeto
 ```
 
-## Objetivo do projeto
+## Objetivos de aprendizado
 
-Este repositório representa uma etapa de estudo e prática em Python, com foco em:
+- praticar Python em um projeto aplicado
+- conhecer o Streamlit e criar uma interface interativa
+- estudar e organizar conceitos importantes do Git
+- desenvolver e documentar um projeto pessoal
 
-- aprendizado de desenvolvimento em Python
-- uso de frameworks e bibliotecas de interface
-- criação de aplicações simples e úteis
-- aprofundamento em Git e versionamento de código
+## Próximos passos
 
-## Status
-
-Projeto em desenvolvimento pessoal, com foco em prática, aprendizado contínuo e documentação de estudos.
+O projeto pode crescer junto com os estudos, com novos tópicos, exemplos práticos e melhorias na experiência de navegação.
 
 ## Autor
 
-Matheus Lucas
+**Matheus Lucas**
 
-## Licença
+- GitHub: [@Matheeus00](https://github.com/Matheeus00)
 
-Este projeto é destinado a fins educacionais e de estudo pessoal.
+---
+
+Feito como parte dos meus estudos contínuos de Python e Git.
